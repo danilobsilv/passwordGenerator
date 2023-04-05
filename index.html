@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel = "shortcut icon" type="image/x-icon" href="assets\faviconPadlock.png">     
+      <title>Password Generator</title>
+</head>
+<body>
+      
+      <img class= "logo" src="assets\passaword_padlock_logo.png" alt="Password Generator logo">
+
+      <main class="container-input">
+            <span>Tamanho  <span id="valor"></span>caracteres</span>
+            
+            <input id="slider" class="slider" type="range" min="5" min="25">
+            
+            <button id="button" class="button-cta">Gerar senha</button>
+      </main>
+
+      <div id="container-password" class="container-password hide">
+            <span class="title">Sua senha gerada foi</span>
+            <span id=password class="password">123132123</span>
+            <span>Clique na senha para copiar</span>
+      </div>
+
+</body>
+</html>
